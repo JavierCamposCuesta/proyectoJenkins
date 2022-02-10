@@ -19,9 +19,9 @@ class PruebaTest {
 		assertTrue(true);
 	}
 	
-//	@Test
-//	void test2() {
-//		assertTrue(true);
-//	}
+	@Test
+	void test2() {
+		assertTrue(false);
+	}
 
 }
