@@ -11,7 +11,7 @@ import com.example.demo.model.Usuario;
 import com.example.demo.service.PedidoService;
 import com.example.demo.service.UsuarioService;
 
-@SpringBootTest
+@SpringBootTest(classes = com.example.demo.CarritoCompraSpringApplication.class)
 class CarritoCompraSpringApplicationTest {
 
 	@Autowired
